@@ -1,0 +1,11 @@
+	<div class="container">
+	{% for new, des, i in mylist %}
+			<img src="{{ i }}" alt="">
+			<h1>news:</h1> {{ news }}
+			{{ value|linebreaks }}
+
+			<h4>description:</h4>{{ des }}
+			{{ value|linebreaks }}
+
+	{% endfor %}
+	</div>
