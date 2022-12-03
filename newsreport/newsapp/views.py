@@ -6,7 +6,7 @@ from newsapi import NewsApiClient
 
 def index(request):
 
-    newsapi=NewsApiClient(api_key ='7e5c4b9eb7d24a2496b20d4495ce6a6a')
+    newsapi=NewsApiClient(api_key ='your api key enter here')
     top=newsapi.get_top_headlines(sources = 'techcrunch')
 
     I=top['articles']
